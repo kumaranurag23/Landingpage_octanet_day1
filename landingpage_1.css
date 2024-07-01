@@ -1,0 +1,98 @@
+/* General Styling */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    background: url('https://img.freepik.com/free-photo/nature-beauty-waters-edge-tranquil-waves-generative-ai_188544-8979.jpg') no-repeat center center fixed; /* Replace 'background.jpg' with your actual image path */
+    background-size: cover;
+}
+
+/* Header Styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+header .logo {
+    font-size: 24px;
+    color:pink;
+    text-decoration: none;
+}
+
+header .navigation a {
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+header .navigation a:hover {
+    color: #ffd700;
+}
+
+/* Content Styling */
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 100px); /* Adjust based on header height */
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.content .info h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.content .info h2 span {
+    color: #ffd700;
+}
+
+.content .info p {
+    font-size: 18px;
+    line-height: 1.5;
+    max-width: 800px;
+    margin-bottom: 20px;
+}
+
+.content .Info-btn {
+    color: #fff;
+    background: #226A80;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.Info-btn:hover {
+    background: #fff;
+    color: #000;
+}
+
+/* Social Media Icons Styling */
+.media_icon {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.media_icon a {
+    margin: 0 15px;
+    font-size: 24px;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.media_icon a:hover {
+    color: #ffd700;
+}
